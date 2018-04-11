@@ -9,12 +9,11 @@ Please refer here for the installation. Click [here](https://github.com/polyswar
 
 ## Install
 ```
-$ git clone https://github.com/jkcomment/perigordTestDapp
-$ pushd $GOPATH/src/perigordTestDapp && cd perigordTestDapp
+$ cd $GOPATH && git clone https://github.com/jkcomment/perigordTestDapp
 ```
 
 ## Build & Run
 ```
-$ go run main.go event.go greeter.go
+$ cd perigordTestDapp && go run main.go event.go greeter.go
 $ ./main
 ```
