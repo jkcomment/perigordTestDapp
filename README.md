@@ -9,10 +9,17 @@ Please refer here for the installation. Click [here](https://github.com/polyswar
 
 ## Install
 ```
-$ cd $GOPATH && git clone https://github.com/jkcomment/perigordTestDapp
+$ cd $GOPATH/src && git clone https://github.com/jkcomment/perigordTestDapp
 ```
 
 ## Build & Run
+Before build there is a testnet's script in the scripts directory in the Perigord repository. Execute testnet's script on another terminal.
+
+```
+$ $GOPATH/src/github.com/polyswarm/perigord/scripts/launch_geth_testnet.sh
+```
+
+build & run
 ```
 $ cd perigordTestDapp && go run main.go event.go greeter.go
 $ ./main
