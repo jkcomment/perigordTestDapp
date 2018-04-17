@@ -7,19 +7,20 @@ Github: [polyswarm/perigord](https://github.com/polyswarm/perigord)
 
 Please refer here for the installation. Click [here](https://github.com/polyswarm/perigord)
 
-## Install
+## Installation
 ```
 $ cd $GOPATH/src && git clone https://github.com/jkcomment/perigordTestDapp
 ```
 
-## Build & Run
-Before build there is a testnet's script in the scripts directory in the Perigord repository. Execute testnet's script on another terminal.
+## Usage
+First, it is necessary to run testnet before the build. A testnet script that can easily run testnet is in the Perigord repository. Execute the script file.
+A testnet script that can easily run testnet is in the Perigord repository. Run it before the build.
 
 ```
 $ $GOPATH/src/github.com/polyswarm/perigord/scripts/launch_geth_testnet.sh
 ```
 
-build & run
+And, build & run
 ```
 $ cd perigordTestDapp && go run main.go event.go greeter.go
 $ ./main
