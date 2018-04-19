@@ -25,7 +25,7 @@ func main() {
 	}
 
 	// マイグレーション実行(デプロイ)
-	if err := migration.RunMigrations(context.Background(), nw, true); err != nil {
+	if err := migration.RunMigrations(context.Background(), nw, false); err != nil {
 		log.Fatalln("Error running migrations: ", err)
 	}
 
