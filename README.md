@@ -1,4 +1,4 @@
-# This is Perigord's tutorial.
+# This is Perigord's sample code.
 
 ## What is Perigord?
 Perigord is Golang Tools for Ethereum Development.
