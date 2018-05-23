@@ -22,6 +22,6 @@ $ $GOPATH/src/github.com/polyswarm/perigord/scripts/launch_geth_testnet.sh
 
 And, build & run
 ```
-$ cd perigordTestDapp && go run main.go event.go greeter.go
+$ cd perigordTestDapp && go build main.go event.go greeter.go
 $ ./main
 ```
